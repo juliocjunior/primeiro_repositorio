@@ -1,0 +1,26 @@
+@use '../config/variaveis.scss'; 
+
+header {
+    background-color: variaveis.$headerColor;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    font-weight: bold;
+    margin-left: 24px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
