@@ -1,79 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercicio_gulp</title>
+    <link rel="stylesheet" href="./dist/styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="build/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;500;700;900&family=Pacifico&family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="branding">
-                <img src="https://via.placeholder.com/120x70" />
+    <main>
+        <div class="parteSuperior">
+            <div class="container">
+                <h1>Exercicio Gulp</h1>
             </div>
-            <nav>
-                <ul class="menu">
-                    <li>
-                        <a href="#">Início</a>
-                    </li>
-                    <li>
-                        <a href="#">Produtos</a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="scripts">
+                <div class="container">
+                    <button id="button">Clique aqui</button>
+                </div>
+            </div>
         </div>
-    </header>
-    <section>
-        <div class="container">
-            <h2>Produtos</h2>
-            <ul class="products">
-                <li class="product-item">
-                    <img src="https://via.placeholder.com/180x180" />
-                    <h4>Nome do produto</h4>
-                    <p>
-                        Descrição do produto, cor, tamanho, textura, etc.
-                    </p>
-                    <a href="#" class="product-button">
-                        Ver detalhes
-                    </a>
-                </li>
-                <li class="product-item">
-                    <img src="https://via.placeholder.com/180x180" />
-                    <h4>Nome do produto</h4>
-                    <p>
-                        Descrição do produto, cor, tamanho, textura, etc.
-                    </p>
-                    <a href="#" class="product-button">
-                        Ver detalhes
-                    </a>
-                </li>
-                <li class="product-item">
-                    <img src="https://via.placeholder.com/180x180" />
-                    <h4>Nome do produto</h4>
-                    <p>
-                        Descrição do produto, cor, tamanho, textura, etc.
-                    </p>
-                    <a href="#" class="product-button">
-                        Ver detalhes
-                    </a>
-                </li>
-                <li class="product-item">
-                    <img src="https://via.placeholder.com/180x180" />
-                    <h4>Nome do produto</h4>
-                    <p>
-                        Descrição do produto, cor, tamanho, textura, etc.
-                    </p>
-                    <a href="#" class="product-button">
-                        Ver detalhes
-                    </a>
-                </li>
-            </ul>
+        <p id="mensagem"></p>
+        <div class="images">
+            <img src="dist/images/butterflies-1127666_1920.jpg" alt="">
+            <img src="dist/images/flowers-19830_1920.jpg" alt="">
+            <img src="dist/images/flowers-276014_1920.jpg" alt="">
+            <img src="dist/images/marguerite-729510_1920.jpg" alt="">
+            <img src="dist/images/pink-324175_1920.jpg" alt="">
+            <img src="dist/images/rose-165819_1920.jpg" alt="">
         </div>
-    </section>
+    </main>
+    
+    <script src="./dist/scripts/main.js"></script>
 </body>
 </html>
