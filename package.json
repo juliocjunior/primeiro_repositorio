@@ -1,16 +1,50 @@
 {
-  "name": "026-exercicio_less",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-cli": "^1.4.3",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "name": "029-exercicio_grunt",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "ansi-styles": "^4.3.0",
+    "async": "^3.2.4",
+    "chalk": "^4.1.2",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "copy-anything": "^2.0.6",
+    "debug": "^3.2.7",
+    "errno": "^0.1.8",
+    "graceful-fs": "^4.2.11",
+    "has-flag": "^4.0.0",
+    "iconv-lite": "^0.6.3",
+    "image-size": "^0.5.5",
+    "is-what": "^3.14.1",
+    "less": "^4.1.3",
+    "lodash": "^4.17.21",
+    "make-dir": "^2.1.0",
+    "mime": "^1.6.0",
+    "ms": "^2.1.3",
+    "needle": "^3.2.0",
+    "parse-node-version": "^1.0.1",
+    "pify": "^4.0.1",
+    "prr": "^1.0.1",
+    "safer-buffer": "^2.1.2",
+    "sax": "^1.2.4",
+    "semver": "^5.7.2",
+    "source-map": "^0.6.1",
+    "supports-color": "^7.2.0",
+    "tslib": "^2.6.0"
+  },
   "scripts": {
-    "less": "less-watch-compiler ./src/styles ./dist/styles main.less",
+    "grunt": "grunt",
+    "watch": "grunt watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "less": "^4.1.3",
-    "less-watch-compiler": "^1.16.3"
-  }
+  "description": ""
 }

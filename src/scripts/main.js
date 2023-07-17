@@ -1,0 +1,1 @@
+alert('o JavaScript minificado está sendo executado.')
