@@ -2,20 +2,34 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exericio_grunt</title>
-    <link rel="stylesheet" href="dist/styles/main.css">
+    <title>Exercício boas práticas de CSS</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <main>
-        <div class="container">
-            <h1>
-                Titulo
-            </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, consectetur cum. Reprehenderit quibusdam ad fuga, mollitia doloribus saepe tenetur, possimus facere sunt pariatur provident architecto doloremque nesciunt corrupti, repellendus vel.</p>
+    <div class="produtos">
+        <div class="produto">
+            <img class="produto__imagem" src="https://via.placeholder.com/100x100">
+            <h4 class="produto__nome">Nome do produto</h4>
+            <p class="produto__descricao">
+                Descrição do produto
+            </p>
         </div>
-    </main>
-    
-    <script src="dist/scripts/main.min.js"></script>
+        <div class="produto--destaque">
+            <img class="produto__imagem" src="https://via.placeholder.com/100x100">
+            <h4 class="produto__nome">Nome do produto</h4>
+            <p class="produto__descricao">
+                Descrição do produto
+            </p>
+        </div>
+        <div class="produto">
+            <img class="produto__imagem" src="https://via.placeholder.com/100x100">
+            <h4 class="produto__nome">Nome do produto</h4>
+            <p class="produto__descricao">
+                Descrição do produto
+            </p>
+        </div>
+    </div>
 </body>
 </html>
