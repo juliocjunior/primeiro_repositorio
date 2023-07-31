@@ -20,4 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         following.innerHTML = json.following;
         profileLink.href = json.html_url;
     })
+    .catch (function(erro) {
+        alert('Ocorreu um erro ao buscar as informações, tente novamente mais tarde')
+    })
 })
