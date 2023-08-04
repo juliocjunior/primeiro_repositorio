@@ -7,7 +7,6 @@ function funcionario (nome, cargo, salario) {
     }
 }
 
-<<<<<<< HEAD
 function estagiario(nome,cargo,salario) {
     funcionario.call(this, nome, cargo, salario);
 
@@ -36,22 +35,3 @@ const maria = new gerente('Maria');
 
 joao.pedirAjuda();
 maria.vaiTrabalhar();
-=======
-    fetch('https://api.github.com/users/juliocjunior')
-    .then(function(res) {
-        return res.json()
-    })
-    .then (function(json) {
-        avatar.src = json.avatar_url;
-        name.innerHTML = json.name;
-        username.innerHTML = json.login;
-        repositories.innerHTML = json.public_repos;
-        followers.innerHTML = json.followers;
-        following.innerHTML = json.following;
-        profileLink.href = json.html_url;
-    })
-    .catch (function(erro) {
-        alert('Ocorreu um erro ao buscar as informações, tente novamente mais tarde')
-    })
-})
->>>>>>> 8969ed3e2bdad521c45377f85d33e9db2356789a
